@@ -1,0 +1,2 @@
+name: demo-service
+health_url: https://example.com/health
