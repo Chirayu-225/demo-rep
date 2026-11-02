@@ -1,0 +1,12 @@
+{
+  "name": "vta-demo-repo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Intentionally vulnerable dependency versions for the Vulnerability Triage Agent benchmark. Do not deploy.",
+  "main": "src/index.js",
+  "dependencies": {
+    "js-yaml": "3.13.0",
+    "lodash": "^4.17.20",
+    "mkdirp": "0.5.5"
+  }
+}
