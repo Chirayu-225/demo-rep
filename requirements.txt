@@ -1,5 +1,9 @@
 # Intentionally vulnerable versions for the Vulnerability Triage Agent benchmark.
 # Do not deploy this project.
-PyYAML==5.3.1
-Jinja2==2.11.2
-requests==2.25.1
+PyYAML==5.4  # security: CVE-2020-14343
+Jinja2==3.1.6  # security: CVE-2020-28493, CVE-2024-22195, CVE-2024-34064, CVE-2024-56326 +1 more
+requests==2.33.0  # security: CVE-2023-32681, CVE-2024-35195, CVE-2024-47081, CVE-2026-25645
+
+# Security constraints for transitive dependencies (added by Vulnerability Triage Agent)
+idna>=3.15  # security: CVE-2024-3651, CVE-2026-45409
+urllib3>=2.8.0  # security: CVE-2025-50181, CVE-2025-66418, CVE-2025-66471, CVE-2026-21441 +3 more
